@@ -1,0 +1,40 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"Anaconda",
+		"AutoFileName",
+		"Babel",
+		"Babel Snippets",
+		"Block Cursor Everywhere",
+		"BracketHighlighter",
+		"Charcoal",
+		"Colorsublime",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"GotoWindow",
+		"Gutter Color",
+		"JavaScript & NodeJS Snippets",
+		"jQuery",
+		"LESS",
+		"Origami",
+		"Package Control",
+		"ReadmePlease",
+		"SideBarEnhancements",
+		"SublimeEnhancedUtilitiesSet",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"TernJS",
+		"Theme - Afterglow",
+		"Theme - Coffee",
+		"Theme - Soda",
+		"Themr",
+		"VintageLines"
+	]
+}

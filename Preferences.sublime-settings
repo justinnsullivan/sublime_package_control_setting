@@ -1,0 +1,50 @@
+{
+	"auto_id_class": true,
+	"autoooooo_complete_commit_on_tab": true,
+	"caret_extra_bottom": 1,
+	"caret_extra_top": 5,
+	"caret_extra_width": 0,
+	"caret_style": "phase",
+	"color_inactive_tabs": true,
+	"color_scheme": "Packages/Babel/Monokai Phoenix_custom.tmTheme",
+	"copyOnMouseSelect": true,
+	"draw_white_space": "all",
+	"fade_fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules"
+	],
+	"font_face": "ubuntu mono",
+	"font_size": 11,
+	"gutter": true,
+	"ignored_packages":
+	[
+		"Anaconda",
+		"SublimeLinter"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_numbers": false,
+	"sidebar_size_12": false,
+	"spell_check": true,
+	"status_bar_brighter": true,
+	"tab_completion": false,
+	"tabs_label_not_italic": false,
+	"tabs_padding_small": true,
+	"tabs_size": 2,
+	"tabs_small": true,
+	"theme": "Coffee Dark Roast.sublime-theme",
+	"theme_otto_global_ui_small": true,
+	"translate_tabs_to_spaces": true,
+	"update_check": false,
+	"vintage_ctrl_keys": false,
+	"vintage_lines.force_mode": false,
+	"vintage_start_in_command_mode": true
+}
