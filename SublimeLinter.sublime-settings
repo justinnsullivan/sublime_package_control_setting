@@ -4,7 +4,7 @@
 		"debug": false,
 		"delay": 0.25,
 		"error_color": "D02000",
-		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Hands/Hands.gutter-theme",
+		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Circle/Circle.gutter-theme",
 		"gutter_theme_excludes":
 		[
 		],
@@ -12,6 +12,34 @@
 		"linters":
 		{
 			"eslint":
+			{
+				"@disable": true,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"plugins":
+				[
+					"react"
+				]
+			},
+			"eslint_d":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"plugins":
+				[
+					"react"
+				]
+			},
+			"jsxhint":
 			{
 				"@disable": false,
 				"args":
@@ -24,7 +52,7 @@
 		},
 		"mark_style": "fill",
 		"no_column_highlights_line": false,
-		"passive_warnings": false,
+		"passive_warnings": true,
 		"paths":
 		{
 			"linux":

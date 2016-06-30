@@ -6,7 +6,7 @@
 	"caret_extra_width": 0,
 	"caret_style": "phase",
 	"color_inactive_tabs": true,
-	"color_scheme": "Packages/Babel/Monokai Phoenix_custom.tmTheme",
+	"color_scheme": "Packages/Gutter Color/Nette_custom (SL).gcfix.tmTheme",
 	"copyOnMouseSelect": true,
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
@@ -18,20 +18,32 @@
 		"CVS",
 		"node_modules"
 	],
-	"font_face": "ubuntu mono",
-	"font_size": 11,
+	"font_face": "menlo",
+	"font_size": 10,
 	"gutter": true,
 	"ignored_packages":
 	[
 		"Anaconda",
-		"SublimeLinter"
+		"CSS",
+		"jQuery",
+		"SublimeLinter-contrib-eslint_d",
+		"SublimeLinter-jsxhint"
 	],
 	"indent_guide_options":
 	[
 		"draw_normal",
 		"draw_active"
 	],
-	"line_numbers": false,
+	"line_numbers": true,
+	"material_theme_bold_tab": true,
+	"material_theme_compact_panel": true,
+	"material_theme_compact_sidebar": false,
+	"material_theme_disable_fileicons": false,
+	"material_theme_disable_folder_animation": true,
+	"material_theme_disable_tree_indicator": false,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_separator": true,
 	"sidebar_size_12": false,
 	"spell_check": true,
 	"status_bar_brighter": true,
@@ -40,7 +52,7 @@
 	"tabs_padding_small": true,
 	"tabs_size": 2,
 	"tabs_small": true,
-	"theme": "Coffee Dark Roast.sublime-theme",
+	"theme": "Material-Theme-Lighter.sublime-theme",
 	"theme_otto_global_ui_small": true,
 	"translate_tabs_to_spaces": true,
 	"update_check": false,
