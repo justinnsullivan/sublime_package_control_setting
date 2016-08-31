@@ -18,7 +18,7 @@
         <key>invisibles</key>
         <string>#745A15</string>
         <key>lineHighlight</key>
-        <string>#372C12</string>
+        <string>#2a2314</string>
         <key>selection</key>
         <string>#372C12</string>
       </dict>
@@ -147,16 +147,6 @@
     </dict>
   <dict>
             <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
             <string>SublimeLinter Warning</string>
             <key>scope</key>
             <string>sublimelinter.mark.warning</string>
@@ -174,6 +164,16 @@
             <dict>
                 <key>foreground</key>
                 <string>#D02000</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
             </dict>
         </dict></array>
   <key>uuid</key>

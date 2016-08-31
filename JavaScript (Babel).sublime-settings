@@ -1,7 +1,13 @@
 {
 	"extensions":
 	[
+		"plans",
+		"sublime-snippet",
+		"sublime-snippet",
+		"sublime-snippet",
+		"sublime-snippet",
+		"sublime-snippet",
 		"js",
-		"plans"
+		"tag"
 	]
 }

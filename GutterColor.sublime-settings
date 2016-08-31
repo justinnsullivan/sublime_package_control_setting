@@ -1,4 +1,5 @@
 {
-  "convert_path" : "C:\\Program Files\\ImageMagick-6.9.4-Q8\\convert",
+  "convert_path_in_windows" : "C:\\Program Files\\ImageMagick-6.9.4-Q8\\convert",
+  "convert_path" : "convert",
   "fix_color_schemes" : true
 }
