@@ -4,12 +4,12 @@
 	"auto_id_class": true,
 	"autoooooo_complete_commit_on_tab": true,
 	"bold_folder_labels": false,
-	"caret_extra_bottom": 1,
-	"caret_extra_top": 5,
+	"caret_extra_bottom": 4,
+	"caret_extra_top": 4,
 	"caret_extra_width": 0,
 	"caret_style": "phase",
 	"color_inactive_tabs": true,
-	"color_scheme": "Packages/Gutter Color/Monokai (SL).gcfix.tmTheme",
+	"color_scheme": "Packages/Gutter Color/Material-Theme-Darker.gcfix.tmTheme",
 	"drag_text": false,
 	"draw_white_space": "all",
 	"folder_exclude_patterns":
@@ -20,22 +20,25 @@
 		"CVS",
 		"node_modules"
 	],
-	"font_facea": "inconsolata",
-	"font_face": "ubuntu mono",
-	"font_facec": "monaco",
-	"font_faced": "fira mono",
+	"font_face": "Fira Code",
+	"font_facea": "Fira Mono",
+	"font_faceb": "inconsolata",
+	"font_facec": "ubuntu mono",
+	"font_faced": "monaco",
 	"font_facee": "hack",
 	"font_facef": "BenSen",
 	"font_faceg": "monofur",
 	"font_faceh": "andale mono",
 	"font_facei": "Lucida Grande",
-	"font_facej": "monofur",
+	"font_facej": "FlottFlott",
+	"font_facek": "miriam libre",
+	"font_facel": "Helvetica Neue",
 	"font_options":
 	[
 		"gray_antialias",
 		"subpixel_antialias"
 	],
-	"font_size": 16,
+	"font_size": 15,
 	"gutter": true,
 	"ignored_packages":
 	[
@@ -44,10 +47,9 @@
 		"CSS Extended Completions",
 		"CSS3",
 		"D3.js Snippets",
-		"Git",
 		"PHP Completions Kit",
-		"SublimeLinter-contrib-eslint_d",
-		"SublimeLinter-jsxhint"
+		"StandardFormat",
+		"Terminal"
 	],
 	"indent_guide_options":
 	[
@@ -55,6 +57,8 @@
 		"draw_active"
 	],
 	"line_numbers": false,
+	"line_padding_bottom": 5,
+	"line_padding_top": 5,
 	"margin": 0,
 	"match_brackets_angle": true,
 	"material_theme_accent_cyan": true,
@@ -72,7 +76,10 @@
 	"tab_completion": false,
 	"tab_size": 2,
 	"theme": "Material-Theme.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"vintage_lines.force_mode": true,
 	"vintage_start_in_command_mode": true,
-	"word_wrap": false
+	"vintageous_use_ctrl_keys": false,
+	"word_wrap": false,
+	"auto_complete_selector": "source, comment, text.plain, meta.tag, punctuation.definition.tag.begin, css",
 }

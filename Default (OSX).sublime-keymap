@@ -1,4 +1,5 @@
 [
+  //for changing vim mode in origin Vintage
     { "keys": ["j", "j"], "command": "exit_insert_mode",
     "context":
     [
@@ -6,7 +7,16 @@
         { "key": "setting.is_widget", "operand": false }
     ]
     },
-    { "keys": ["ctrl+shift+y+,"], "command": "expand_abbreviation_by_tab",
+    //for changing to normal mode in vintageous
+    {
+        "keys": ["j", "j"],
+        "command": "_enter_normal_mode",
+        "args": {
+            "mode": "mode_insert"
+        },
+        "context": [{"key": "vi_insert_mode_aware"}]
+    },
+    { "keys": ["shift+tab"], "command": "expand_abbreviation_by_tab",
     "context": [
     {
       "operand": "source.js", 
@@ -26,8 +36,9 @@
 },
 //for changing tab like vim  style
 
-{ "keys": [",", "g", "r"], "command": "next_view_in_stack" },
-{ "keys": [",", "g", "t"], "command": "prev_view_in_stack" },
+{ "keys": [",", "g", "p"], "command": "next_view_in_stack" },
+{ "keys": [",", "g", "n"], "command": "prev_view_in_stack" },
+  { "keys": [",", "k", "b"], "command": "toggle_side_bar" },
 //for vintage mode toggle
 {"keys": ["ctrl+t"], "command": "toggle_setting", "args": {"setting": "vintage_lines.force_mode"}},
 //for toggling line number
@@ -36,6 +47,11 @@
 { "keys": [",", "v", "s", "p"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
 { "keys": [",", "s", "p"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
 { "keys": [",", "b", "d"], "command": "destroy_pane", "args": {"direction": "self"} },
+{ "keys": [",", "w", "|"], "command": "zoom_pane", "args": {"fraction": 0.9} },
+{ "keys": [",", "w", "="], "command": "unzoom_pane", "args": {} },
+//for origami copied from main keymap
+{ "keys": [",", "g", "r"], "command": "focus_neighboring_group", "args": {"forward": false} },
+{ "keys": [",", "g", "t"], "command": "focus_neighboring_group" },
 //for column selection i am reversing sublime key bindings with scroll_lines
 { "keys": ["ctrl+shift+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
 { "keys": ["ctrl+shift+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
