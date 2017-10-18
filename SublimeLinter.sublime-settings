@@ -49,9 +49,19 @@
 				[
 				]
 			},
-			"standard":
+			"php":
 			{
 				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"standard":
+			{
+				"@disable": true,
 				"args":
 				[
 				],

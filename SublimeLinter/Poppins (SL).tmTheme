@@ -270,16 +270,6 @@ entity.name.tag</string>
             </dict>
         </dict><dict>
             <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
             <string>SublimeLinter Error</string>
             <key>scope</key>
             <string>sublimelinter.mark.error</string>
@@ -287,6 +277,16 @@ entity.name.tag</string>
             <dict>
                 <key>foreground</key>
                 <string>#D02000</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
             </dict>
         </dict></array>
 	<key>uuid</key>

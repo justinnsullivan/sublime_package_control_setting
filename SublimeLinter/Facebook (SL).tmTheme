@@ -20,19 +20,31 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#252B39</string>
+        <string>#263238</string>
         <key>caret</key>
-        <string>#979E86</string>
+        <string>#FFCC00</string>
         <key>foreground</key>
         <string>#C3CEE3</string>
         <key>invisibles</key>
         <string>#FF0000</string>
+
+
+        
+
         <key>lineHighlight</key>
-        <string>#2F374D</string>
+        <string>#3C4D3E</string>
         <key>selection</key>
-        <string>#1a1f29</string>
+        <string>#FF5D38</string>
+        <key>selectionForeground</key>
+        <string>#ffffff</string>
+        <key>findHighlight</key>
+        <string>#ffe792</string>
+        <key>findHighlightForeground</key>
+        <string>#000000</string>
         <key>selectionBorder</key>
-        <string>#1a1f29</string>
+        <string>#222218</string>
+        <key>activeGuide</key>
+        <string>#9d550fb0</string>
       </dict>
     </dict>
     <dict>
@@ -773,16 +785,6 @@
 
   <dict>
             <key>name</key>
-            <string>SublimeLinter Error</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#D02000</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
             <string>SublimeLinter Gutter Mark</string>
             <key>scope</key>
             <string>sublimelinter.gutter-mark</string>
@@ -800,6 +802,16 @@
             <dict>
                 <key>foreground</key>
                 <string>#DDB700</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Error</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D02000</string>
             </dict>
         </dict></array>
   <key>uuid</key>
