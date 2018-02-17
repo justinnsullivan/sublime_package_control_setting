@@ -1,12 +1,5 @@
 [
-    { "keys": ["j", "j"], "command": "exit_insert_mode",
-    "context":
-    [
-        { "key": "setting.command_mode", "operand": false },
-        { "key": "setting.is_widget", "operand": false }
-    ]
-    },
-    { "keys": ["ctrl+shift+y+,"], "command": "expand_abbreviation_by_tab",
+    { "keys": ["shift+tab"], "command": "expand_abbreviation_by_tab",
     "context": [
     {
       "operand": "source.js", 
@@ -24,7 +17,51 @@
                                     
   ]
 },
-{"keys": ["ctrl+t"], "command": "toggle_setting", "args": {"setting": "vintage_lines.force_mode"}},
-{"keys": ["ctrl+alt+y"], "command": "toggle_setting", "args": {"setting": "line_numbers"} }
+//for changing tab like vim  style
+  { "keys": [",", "w"], "command": "close" },
+{ "keys": [",", "g", "t"], "command": "prev_view_in_stack" },
+{ "keys": [",", "g", "p"], "command": "next_view_in_stack" },
+  { "keys": [",", "k", "b"], "command": "toggle_side_bar" },
+//for vintage mode toggle
+{"keys": ["ctrl+shift+v"], "command": "toggle_setting", "args": {"setting": "vintage_lines.force_mode"}},
+//for toggling line number
+{"keys": ["ctrl+shift+l"], "command": "toggle_setting", "args": {"setting": "line_numbers"} },
+//origami key binding
+{ "keys": [",", "v", "s", "p"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
+{ "keys": [",", "s", "p"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
+{ "keys": [",", "b", "d"], "command": "destroy_pane", "args": {"direction": "self"} },
+{ "keys": [",", "w", "|"], "command": "zoom_pane", "args": {"fraction": 0.9} },
+{ "keys": [",", "w", "="], "command": "unzoom_pane", "args": {} },
+//for origami copied from main keymap
+{ "keys": [",", "h"], "command": "focus_neighboring_group", "args": {"forward": false} },
+{ "keys": [",", "l"], "command": "focus_neighboring_group" },
+//for column selection i am reversing sublime key bindings with scroll_lines
+{ "keys": ["ctrl+alt+u"], "command": "select_lines", "args": {"forward": false} },
+{ "keys": ["ctrl+alt+d"], "command": "select_lines", "args": {"forward": true} },
+ { "keys": ["f10"], "command": "find_use" },
+ { "keys": ["f12"], "command": "goto_definition_scope" },
+{ "keys": [",", "q"], "command": "close" },
+  { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0`"}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+      { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|>|$)", "match_all": true },
+      { "key": "preceding_text", "operator": "not_regex_contains", "operand": "[`a-zA-Z0-9_]$", "match_all": true },
+      { "key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.single", "match_all": true }
+    ]
+  },
+    { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`${0:$SELECTION}`"}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+    ]
+  },
+  { "keys": ["`"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+      { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true }
+    ]
+  }
       
 ]

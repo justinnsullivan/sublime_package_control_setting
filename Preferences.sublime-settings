@@ -5,12 +5,10 @@
 	"auto_id_class": false,
 	"autoooooo_complete_commit_on_tab": true,
 	"bold_folder_labels": false,
-	"caret_extra_bottomb": 4,
-	"caret_extra_topp": 4,
-	"caret_extra_width": 0,
+	"caret_extra_top": 10,
 	"caret_style": "phase",
 	"color_inactive_tabs": true,
-	"color_scheme": "Packages/User/SublimeLinter/dropin (SL).tmTheme",
+	"color_scheme": "Packages/Gutter Color/dropin (SL).gcfix.tmTheme",
 	"drag_text": false,
 	"draw_white_space": "all",
 	"folder_exclude_patterns":
@@ -18,13 +16,13 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS",
-		"node_modules"
+		"CVS"
 	],
-	"font_face": "Monaco",
+	"font_face": "Fira Code",
+	"font_facea": "monaco",
 	"font_faceb": "inconsolata",
-	"font_facec": "ubuntu mono",
-	"font_faced": "monaco",
+	"font_facec": "monaco",
+	"font_faced": "Roboto mono",
 	"font_facee": "hack",
 	"font_facef": "BenSen",
 	"font_faceg": "monofur",
@@ -33,14 +31,9 @@
 	"font_facej": "FlottFlott",
 	"font_facek": "miriam libre",
 	"font_facel": "Helvetica Neue",
-	"font_facem": "Fira Code",
+	"font_facem": "ubuntu mono",
 	"font_facen": "Monoisome",
-	"font_options":
-	[
-		"gray_antialias",
-		"subpixel_antialias"
-	],
-	"font_size": 13,
+	"font_size": 12,
 	"gutter": true,
 	"ignored_packages":
 	[
@@ -50,7 +43,6 @@
 		"CSS3",
 		"D3.js Snippets",
 		"JavaScript Completions",
-		"PHP Completions Kit",
 		"StandardFormat",
 		"Terminal"
 	],
@@ -60,7 +52,6 @@
 		"draw_active"
 	],
 	"line_numbers": true,
-	"line_padding_bottom": 10,
 	"line_padding_top": 10,
 	"margin": 0,
 	"match_brackets_angle": true,
@@ -78,10 +69,10 @@
 	"spell_check": true,
 	"tab_completion": false,
 	"tab_size": 2,
-	"theme": "ayu-light.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"vintage_start_in_command_mode": true,
 	"vintageous_use_ctrl_keys": false,
 	"vvvvintage_lines.force_mode": true,
-	"word_wrap": false
+	"word_wrap": true
 }
