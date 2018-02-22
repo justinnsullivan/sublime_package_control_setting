@@ -18,7 +18,7 @@
 		".hg",
 		"CVS"
 	],
-	"font_face": "Fira Code",
+	"font_face": "ubuntu mono",
 	"font_facea": "monaco",
 	"font_faceb": "inconsolata",
 	"font_facec": "monaco",
@@ -33,7 +33,7 @@
 	"font_facel": "Helvetica Neue",
 	"font_facem": "ubuntu mono",
 	"font_facen": "Monoisome",
-	"font_size": 12,
+	"font_size": 18,
 	"gutter": true,
 	"ignored_packages":
 	[
