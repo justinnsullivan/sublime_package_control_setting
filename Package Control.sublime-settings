@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Markdown Preview"
 	],
 	"installed_packages":
 	[
@@ -16,7 +17,6 @@
 		"Eloquent Snippets",
 		"Emmet",
 		"Jekyll",
-		"jQuery",
 		"Laravel 5 Snippets",
 		"Laravel Blade Highlighter",
 		"Markdown Preview",
@@ -29,7 +29,6 @@
 		"SASS Snippets",
 		"SideBarEnhancements",
 		"SublimeLinter",
-		"SublimeLinter-php",
 		"Vue Syntax Highlight"
 	]
 }
