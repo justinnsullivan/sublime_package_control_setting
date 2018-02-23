@@ -1,5 +1,7 @@
 # my sublime setting 
 
+Today i have seen a south Indian movie. After wasting 2 hours I feel like an idiot. Story was so cheap romeo style, shitty... very childish. My 2 hours lost. shit shit shit. I will know the writer name before watching any movie. If its PURI Jogannath, then it could be worth watching...       
+
 -------------------
 Its my sublime setting file and folder     
 
