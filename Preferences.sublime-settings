@@ -8,7 +8,7 @@
 	"caret_extra_top": 10,
 	"caret_style": "phase",
 	"color_inactive_tabs": true,
-	"color_scheme": "Packages/Gutter Color/dropin (SL).gcfix.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Breakers (SL).tmTheme",
 	"drag_text": false,
 	"draw_white_space": "all",
 	"folder_exclude_patterns":
@@ -37,14 +37,10 @@
 	"gutter": true,
 	"ignored_packages":
 	[
-		"BracketHighlighter",
-		"Column Select",
-		"CSS Extended Completions",
-		"CSS3",
 		"D3.js Snippets",
 		"JavaScript Completions",
-		"StandardFormat",
-		"Terminal"
+		"Terminal",
+		"Theme - Cobalt2"
 	],
 	"indent_guide_options":
 	[
